@@ -10,7 +10,7 @@
 
 В цьому завданні інтерфейс вже розділений на компоненти, твоя задача перенести це в код. Частини інтерфейсу, що входять в компонент, обведені рамкою відповідного кольору.
 
-[![Preview Components](https://s3.eu-north-1.amazonaws.com/lms.goit.files/a9bfb9da-83df-4c7d-af02-4ba7c70f1d5fScreenshot%202023-12-04%20at%2015.33.12.png)](https://s3.eu-north-1.amazonaws.com/lms.goit.files/a9bfb9da-83df-4c7d-af02-4ba7c70f1d5fScreenshot%202023-12-04%20at%2015.33.12)
+![Preview Components](https://s3.eu-north-1.amazonaws.com/lms.goit.files/a9bfb9da-83df-4c7d-af02-4ba7c70f1d5fScreenshot%202023-12-04%20at%2015.33.12.png)
 
 Як бачиш, всі компоненти рендеряться всередині компонента `App`.
 
@@ -42,7 +42,7 @@ Please leave your feedback about our service by selecting one of the options bel
 
 Після цього кроку інтерфейс застосунку буде виглядати наступним чином. Зверни увагу, що в компонентів не вистачає деяких елементів, ти додаси їх наступних кроках.
 
-[![Preview Interface](https://s3.eu-north-1.amazonaws.com/lms.goit.files/6d29ced9-21fe-4035-a6db-397acbfeef00Screenshot%202023-12-04%20at%2015.45.26.png)](https://s3.eu-north-1.amazonaws.com/lms.goit.files/6d29ced9-21fe-4035-a6db-397acbfeef00Screenshot%202023-12-04%20at%2015.45.26)
+![Preview Interface](https://s3.eu-north-1.amazonaws.com/lms.goit.files/6d29ced9-21fe-4035-a6db-397acbfeef00Screenshot%202023-12-04%20at%2015.45.26.png)
 
 ### Крок 2
 
