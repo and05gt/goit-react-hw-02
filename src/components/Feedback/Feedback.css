@@ -1,6 +1,18 @@
-.feedback-wrapper {
+.feedback-wrapper ul {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.feedback-good {
+  color: #72c718;
+}
+
+.feedback-bad {
+  color: #ef4040;
 }

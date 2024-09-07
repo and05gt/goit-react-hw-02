@@ -1,13 +1,21 @@
 import "./Feedback.css";
 
-const Feedback = () => {
+const Feedback = ({ data, total, positive }) => {
   return (
     <div className="feedback-wrapper">
-      <span>Good: 0</span>
-      <span>Neutral: 0</span>
-      <span>Bad: 0</span>
-      <span>Total: 0</span>
-      <span>Positive: 0%</span>
+      <ul>
+        <li className="feedback-good">Good: {data.good}</li>
+        <li>Neutral: {data.neutral}</li>
+        <li className="feedback-bad">Bad: {data.bad}</li>
+        <li>Total: {total}</li>
+        {positive > 75 ? (
+          <li className="feedback-good">Positive: {positive}%</li>
+        ) : <li>Positive: {positive}%</li> && positive < 25 ? (
+          <li className="feedback-bad">Positive: {positive}%</li>
+        ) : (
+          <li>Positive: {positive}%</li>
+        )}
+      </ul>
     </div>
   );
 };
